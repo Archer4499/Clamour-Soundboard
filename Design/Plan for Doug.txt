@@ -1,0 +1,68 @@
+Plan for Doug
+Press button make sound
+Choose output device
+Playback speed
+Main volume
+Individual volume
+Maybe volume normalisation?
+Button to trigger random sound from list
+
+
+Grid of squares, each square is a separate sound, and has:
+    Button to trigger
+    Volume
+    Playback speed
+    Config:
+        Title
+        Audio file or List of files to pick randomly from (maybe make pick from list of other squares?)
+        Keybind
+        Repeat mode: Default(Global), Single, Restart, Queued(maybe just queue one extra), Parallel (Not sure if should be in config or on square?)
+A plus icon for new squares after the last one
+Overall/global options/buttons:
+    Volume
+    Playback speed
+    The output audio device, maybe allow choosing multiple options
+    Size scale slider for buttons
+    Global Repeat mode
+    Stop all
+    Cross-fade/fadeout?
+
+Select audio files in situ (Maybe future import/copy them into our own library)
+
+
+Github actions:
+    Compile using pyinstaller:
+        https://libtcod.github.io/tutorials/python/2021/distribution.html
+        https://data-dive.com/multi-os-deployment-in-cloud-using-pyinstaller-and-github-actions
+    Others of interest:
+        Manual workflow
+        Python package
+        Pylint
+
+
+Maybe take an audio input, such as a mic, and output both to the selected outputs, maybe allow selecting which of the two output to each audio device?
+Maybe mess with virtual audio devices? Likely hard..
+
+
+
+
+Archer4499/Clamour-Soundboard: A soundboard made in Python.
+https://github.com/Archer4499/Clamour-Soundboard
+
+python audio real time - Google Search
+https://www.google.com/search?q=python+audio+real+time
+
+Playing and Recording Sound in Python – Real Python
+https://realpython.com/playing-and-recording-sound-python/
+
+Audio - Python Wiki
+https://wiki.python.org/moin/Audio
+
+PythonInMusic - Python Wiki
+https://wiki.python.org/moin/PythonInMusic
+
+Play and Record Sound with Python — python-sounddevice, version 0.4.3
+https://python-sounddevice.readthedocs.io/en/0.4.3/
+
+Home · PortAudio/portaudio Wiki
+https://github.com/PortAudio/portaudio/wiki
